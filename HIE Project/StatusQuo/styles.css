@@ -1,0 +1,58 @@
+body {
+    background-color: green;
+}
+
+#content {
+    position: absolute;
+    height: 90%;
+    width: 83%;
+    right: 1%;
+    bottom: 2%;
+    background-color: white;
+}
+
+#panel {
+    position: absolute;
+    height: 90%;
+    width: 8%;
+    left: 7%;
+    bottom: 2%;
+    background-color: whitesmoke;
+}
+
+#Forward {
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    top: 2%;
+    left: 25%;
+}
+
+#Backward {
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+}
+
+#StatusQuo {
+    top: 8%;
+}
+
+#NuclearEnergy {
+    top: 11%;
+}
+
+#Influence {
+    top: 14%;
+}
+
+.switch {
+    font-size: 50%;
+    position: absolute;
+    height: 2%;
+    width: 5%;
+    left: 1%;
+    background-color: green;
+}
