@@ -1,6 +1,6 @@
 const origin = "HIE-Project/HIE%20Project/";
 const array = ["test.html", "dog.html"];
-let point = 0;
+let point = -1;
 
 function StatusQuo() {
     window.location.pathname = origin + "StatusQuo.html";
