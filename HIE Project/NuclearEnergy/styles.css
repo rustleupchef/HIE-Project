@@ -14,8 +14,8 @@ body {
 #panel {
     position: absolute;
     height: 90%;
-    width: 8%;
-    left: 7%;
+    width: 4%;
+    left: 11%;
     bottom: 2%;
     background-color: whitesmoke;
 }
@@ -41,18 +41,18 @@ body {
 }
 
 #NuclearEnergy {
-    top: 11%;
+    top: 14%;
 }
 
 #Influence {
-    top: 14%;
+    top: 20%;
 }
 
 .switch {
     font-size: 50%;
     position: absolute;
-    height: 2%;
-    width: 5%;
+    height: 4%;
+    width: 9%;
     left: 1%;
     background-color: green;
 }
