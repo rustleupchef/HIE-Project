@@ -1,6 +1,10 @@
 const origin = "HIE-Project/HIE%20Project/";
 const array = [];
-let point = -1;
+let point = 0;
+
+window.onload = function() {
+    
+}
 
 function StatusQuo() {
     window.location.pathname = origin + "StatusQuo.html";
