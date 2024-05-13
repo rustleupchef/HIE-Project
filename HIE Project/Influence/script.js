@@ -1,4 +1,4 @@
-const origin = "C:/Users/ravin/source/repos/HIE%20Project/";
+const origin = "HIE-Project/HIE%20Project/";
 function StatusQuo() {
     window.location.pathname = origin + "StatusQuo.html";
 }
