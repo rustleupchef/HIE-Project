@@ -1,6 +1,10 @@
 const origin = "HIE-Project/HIE%20Project/";
 const array = ["greenhouse.html", "History.html"];
-let point = -1;
+let point = 0;
+
+window.onload = function() {
+    document.getElementById("content").setAttribute("src", "context/" + array[0])
+}
 
 function StatusQuo() {
     window.location.pathname = origin + "StatusQuo.html";
