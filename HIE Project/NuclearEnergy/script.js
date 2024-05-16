@@ -1,5 +1,5 @@
 const origin = "HIE-Project/HIE%20Project/";
-const array = ["Nukes/Nukes.html", "Fixing/Fixing.html"];
+const array = ["Nukes/Nukes.html", "Fixing/Fixing.html", "Implementation/Implementation.html"];
 let point = 0;
 
 window.onload = function() {
