@@ -1,4 +1,4 @@
-const origin = "HIE Project/";
+const origin = "HIE-Project/";
 const array = ["Effects/Effects.html", "History/History.html"];
 let point = 0;
 
