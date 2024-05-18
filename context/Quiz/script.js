@@ -11,7 +11,7 @@ function Submit() {
         document.getElementById("Answer").value = emissions;
     }
     if (pointer < questions.length) {
-        pointer++;
         emissions += document.getElementById("Answer").value * parseInt(questions[pointer].split(":")[1]);
+        pointer++;
     }
 }
