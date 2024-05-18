@@ -17,3 +17,19 @@ function NuclearEnergy() {
 function Influence() {
     window.location.pathname = origin + "Influence.html";
 }
+
+function Forward() {
+    point++;
+    if (point == array.length) {
+        point -= 1;
+    }
+    document.getElementById("content").setAttribute("src", "context/" + array[point]);
+}
+
+function Backward() {
+    point--;
+    if (point < 0) {
+        point = 0;
+    }
+    document.getElementById("content").setAttribute("src", "context/" + array[point]);
+}
