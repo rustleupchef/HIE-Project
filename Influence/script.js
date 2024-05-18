@@ -17,7 +17,3 @@ function NuclearEnergy() {
 function Influence() {
     window.location.pathname = origin + "Influence.html";
 }
-
-function Submit() {
-    
-}
