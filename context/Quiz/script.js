@@ -6,13 +6,12 @@ window.onload = function() {
 }
 
 function Submit() {
-    if (pointer < questions.length) {
-        emissions += document.getElementById("Answer").value * parseInt(questions[pointer].split(":")[1]);
-        pointer++;
-    }
     if (pointer == questions.length) {
-        pointer--;
         document.getElementById("Question").innerText = "You produce " + emissions.toString() + " pounds of carbon emissions to counter that you need to donate in dollars around";
         document.getElementById("Answer").value = emissions;
-    } 
+    }
+    if (pointer < questions.length) {
+        pointer++;
+        emissions += document.getElementById("Answer").value * parseInt(questions[pointer].split(":")[1]);
+    }
 }
