@@ -1,4 +1,4 @@
-const origin = "C:/Users/ravin/source/repos/HIE Project/";
+const origin = "HIE-Project/";
 const array = ["Nukes/Nukes.html", "Fixing/Fixing.html", "Implementation/Implementation.html"];
 let point = 0;
 
