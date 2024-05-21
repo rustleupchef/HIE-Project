@@ -33,7 +33,7 @@ function Submit() {
         }
     }
     if (pointer == questions.length) {
-        document.getElementById("Question").innerText = "You produce " + emissions.toString() + " pounds of carbon emissions to counter that you need to donate in dollars around";
+        document.getElementById("Question").innerText = "You produce " + emissions.toString() + " pounds of carbon dioxide a day to counter this you need to donate in US dollars around";
         document.getElementById("Answer").value = emissions * (0.85616438356 / 21.91);
         document.getElementById("Submit").innerText = "Reset";
     }
