@@ -14,6 +14,7 @@ function Submit() {
         emissions = 0;
         document.getElementById("Question").innerText = questions[0].split(":")[0];
         document.getElementById("Answer").value = null;
+        document.getElementById("Answer").readOnly = false;
         if (pointer + 1 == questions.length) {
             document.getElementById("Submit").innerText = "Submit";
         } else {
@@ -35,6 +36,7 @@ function Submit() {
     if (pointer == questions.length) {
         document.getElementById("Question").innerText = "You produce " + emissions.toString() + " pounds of carbon dioxide a day to counter this you need to donate in US dollars around";
         document.getElementById("Answer").value = emissions * (0.85616438356 / 21.91);
+        document.getElementById("Answer").readOnly = true;
         document.getElementById("Submit").innerText = "Reset";
     }
 }
