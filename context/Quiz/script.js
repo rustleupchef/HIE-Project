@@ -1,4 +1,4 @@
-const questions = ["how many gallons of fuel do you use when you drive everday:20", "What is your monthly electric bill:3.5"]
+const questions = ["how many gallons of fuel do you use when you drive everday:20", "What is your monthly electric bill:0.28767123287"]
 let pointer = 0;
 let emissions = 0.0;
 window.onload = function() {
